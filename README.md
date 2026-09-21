@@ -1,10 +1,10 @@
-# SOCRATIVE
+# SOCR.AI
 
 **Socratic Optimized Cognitive Responsiveness**
 
 > Turning AI from an answer machine into a thinking partner.
 
-SOCRATIVE is an AI-assisted learning platform that integrates **Socratic Questioning** with **Large Language Models (LLMs)** to encourage learners to think, question, and reflect before relying on AI-generated answers.
+SOCR.AI is an AI-assisted learning platform that integrates **Socratic Questioning** with **Large Language Models (LLMs)** to encourage learners to think, question, and reflect before relying on AI-generated answers.
 
 The project addresses the emerging **AI Genie Phenomenon**, where increasingly capable generative AI can make obtaining answers effortless and potentially encourage cognitive offloading when learners rely on AI without sufficiently processing or evaluating information.
 
@@ -12,14 +12,14 @@ The project addresses the emerging **AI Genie Phenomenon**, where increasingly c
 
 ## Overview
 
-SOCRATIVE is designed around a simple principle:
+SOCR.AI is designed around a simple principle:
 
 ```text
 AI should not only provide answers.
 AI should stimulate thinking.
 ```
 
-Instead of immediately generating a final answer, SOCRATIVE uses a Socratic interaction process to guide learners through questioning, reasoning, reflection, and understanding.
+Instead of immediately generating a final answer, SOCR.AI uses a Socratic interaction process to guide learners through questioning, reasoning, reflection, and understanding.
 
 ### Core Interaction
 
@@ -67,7 +67,7 @@ Stores learning conversations and user responses for future review and evaluatio
 
 ## Architecture
 
-SOCRATIVE uses a service-oriented architecture combining **Go** and **Python**.
+SOCR.AI uses a service-oriented architecture combining **Go** and **Python**.
 
 ```text
                          ┌──────────────────┐
@@ -121,7 +121,7 @@ SOCRATIVE uses a service-oriented architecture combining **Go** and **Python**.
 ## Project Structure
 
 ```text
-socrative/
+SOCR.AI/
 │
 ├── cmd/
 │   ├── api-gateway/
@@ -227,7 +227,7 @@ APP_ENV=development
 HTTP_PORT=8080
 GRPC_PORT=50051
 
-DATABASE_URL=postgres://user:password@localhost:5432/socrative
+DATABASE_URL=postgres://user:password@localhost:5432/SOCR.AI
 
 AI_SERVICE_URL=localhost:50051
 
@@ -244,8 +244,8 @@ LLM_MODEL=your_model
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/socrative.git
-cd socrative
+git clone https://github.com/your-username/SOCR.AI.git
+cd SOCR.AI
 ```
 
 ### 2. Configure Environment
@@ -333,7 +333,7 @@ After modifying the protobuf definition, regenerate the gRPC code using:
 
 ## Research Foundation
 
-The development of SOCRATIVE is motivated by research surrounding:
+The development of SOCR.AI is motivated by research surrounding:
 
 - Generative AI diffusion
 - AI adoption in education
@@ -350,16 +350,16 @@ Selected references include:
 - Rohilla et al. Research on AI dependency, memory retention, and critical thinking.
 - Ramadhan et al. Research relevant to AI-assisted learning and cognitive processes.
 
-Detailed references and evidence are presented on the SOCRATIVE project website.
+Detailed references and evidence are presented on the SOCR.AI project website.
 
 ---
 
 ## Project Website
 
-The SOCRATIVE innovation showcase is available through the project website.
+The SOCR.AI innovation showcase is available through the project website.
 
 ```text
-https://socrative-profile-for-competition.vercel.app/
+https://SOCR.AI-profile-for-competition.vercel.app/
 ```
 ---
 
